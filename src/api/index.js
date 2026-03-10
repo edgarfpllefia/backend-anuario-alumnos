@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import alumnosRoutes from '../routes/alumnos.routes.js';
+import comentariosRoutes from '../routes/comentarios.routes.js';
 
 const app = express();
 const FRONTEND_URL = process.env.FRONTEND_URL || '*';
